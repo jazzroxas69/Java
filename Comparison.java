@@ -5,7 +5,7 @@ public class Comparison
     public static void main( String args[] )    
     {
         // create Scanner to obtain input from command window       
-        Scanner input = Scanner( System.in );  
+        Scanner input = new Scanner( System.in );  
         int number1; // first number to compare       
         int number2; // second number to compare  
       
@@ -27,6 +27,6 @@ public class Comparison
             System.out.printf( "%d <= %d\n", number1, number2 );  
         if ( number1 >= number2 )          
             System.out.printf( "%d >= %d\n", number1, number2 );  
-    }
+    
    } // end method main  
 } // end class Comparison 
